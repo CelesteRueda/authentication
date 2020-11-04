@@ -1,16 +1,26 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AuthModule } from '@auth0/auth0-angular';
+import { AuthButtonComponent } from './components/button/button.component';
+import { NavBarComponent } from './components/navbar/navbar.component';
+import { UserProfileComponent } from './components/user/user.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AuthButtonComponent,
+    NavBarComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AuthModule.forRoot({
+      domain: 'dev-2dela79z.us.auth0.com',
+      clientId: '0CvwWUCgQKpmJ1Yn7dh4dvGZ0t64Q5dj'
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

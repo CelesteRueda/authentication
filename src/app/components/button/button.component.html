@@ -1,0 +1,6 @@
+<button class="boton1" *ngIf="!(auth.isAuthenticated$ | async)" (click)="auth.loginWithRedirect()">
+    iniciar sesión
+</button>
+<button class="boton2" *ngIf="auth.isAuthenticated$ | async" (click)="auth.logout()">
+    cerrar sesión
+</button>

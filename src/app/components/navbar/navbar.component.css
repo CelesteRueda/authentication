@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.menuH{
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #595d5e;
+}
+.menuH a {
+    background-color: #c0c5c7;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    float:left;
+    width: 20%;
+    text-align: center; 
+    font-family: Arial; 
+}
+.menuH a:hover{
+    background-color: #475055;
+}
