@@ -1,27 +1,24 @@
-# Authentication
+# AUTHENTICATION
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
+Servicio de Login.
 
-## Development server
+* [Demo](https://authentication-1c6ed.web.app/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![Preview](https://github.com/CelesteRueda/authentication/blob/master/demo.png)
 
-## Code scaffolding
+### Pre requisitos. 
+ 
+ Se debera contar con la instalación de nodejs y angular para poder correr el proyecto de forma local.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Instalación.
 
-## Build
+ * 1 - Clonar el proyecto.
+ * 2 - Cambiar de directorio a la carpeta del proyecto `cd authentication`.
+ * 3 - Ejecutar en la consola el siguiente comando para instalar las dependencias `npm install`.
+ * 4 - Levantar el proyecto con el siguiente comando `ng serve -o`. Al finalizar la tarea se abrira el navegador que tenga seteado por defecto y se podra ver el formulario. En caso de no abrirse solo. Abrir un navegador y colocar la siguiente url: `http://localhost:4200/`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Construido con.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* [Angular](https://angular.io/) - El framework usado.
+* [Auth0](https://auth0.com/) - Servicio de autenticación.
+* [Firebase](https://firebase.google.com/?hl=es) - Utilizado para desplegar el proyecto.
