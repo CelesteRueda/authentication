@@ -1,12 +1,6 @@
-.boton1{
-    background-color: rgb(147, 218, 147);
+button{
+    color:"primary";
     width: 150px;
     height: 30px; 
     float: right;
 }
-.boton2{
-    background-color: rgb(231, 103, 94);
-    width: 150px;
-    height: 30px;
-    float: right;
-} 

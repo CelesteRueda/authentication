@@ -6,13 +6,16 @@ import { AuthModule } from '@auth0/auth0-angular';
 import { AuthButtonComponent } from './components/button/button.component';
 import { NavBarComponent } from './components/navbar/navbar.component';
 import { UserProfileComponent } from './components/user/user.component';
+import { HeroComponent } from './components/hero/hero.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
     AuthButtonComponent,
     NavBarComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
@@ -21,6 +24,7 @@ import { UserProfileComponent } from './components/user/user.component';
       domain: 'dev-2dela79z.us.auth0.com',
       clientId: '0CvwWUCgQKpmJ1Yn7dh4dvGZ0t64Q5dj'
     }),
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
